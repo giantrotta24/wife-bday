@@ -1,0 +1,29 @@
+{
+  "name": "wife-bday",
+  "version": "1.0.0",
+  "description": "How long until my wife's birthday",
+  "main": "run.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Gianfranco Trotta",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "css": "^3.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
